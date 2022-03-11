@@ -1,0 +1,40 @@
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6ad58b;
+  transition: background 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.btn-yours {
+  background: pink;
+  padding: 10px;
+  font-weight: 799;
+  color: red;
+}
+
+.btn-yours:hover {
+  font: blue;
+  background: yellow;
+  height: 30px;
+  width: 80px;
+  transition: ease-in-out;
+  text-align: center;
+}

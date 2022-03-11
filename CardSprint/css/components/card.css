@@ -1,0 +1,64 @@
+/* category card */
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  background-image: url("../../images/Maragsa.png");
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-category h2 {
+  color: pink;
+  font-size: 30px;
+}
+
+/* product card */
+.card-product {
+  height: 120px;
+  display: flex;
+  justify-content: start;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-product img {
+  width: 120px;
+}
+
+.inner-text {
+  padding: 10px;
+}
+
+/* trip card */
+.card-trip {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.top-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-text {
+  padding: 10px;
+  position: relative;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: -27px;
+  left: 415px;
+  border: 1px solid white;
+}
